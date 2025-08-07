@@ -31,4 +31,9 @@ print(studentDict2)
 studentDict.update(age=300) #For my son I am 300 years old :)
 print(studentDict)
 
+#Find
+print('age' in studentDict) #True
+print('age' in studentDict.values()) #False
+print(300 in studentDict.values()) #True
+
 
